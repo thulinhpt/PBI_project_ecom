@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data (download separately, see data/README.md)
+data/
+*.csv
+
+# SQL Server Docker volume and backups
+mssql-data/
+*.bak
+
+# Logs
+logs/
+
+# Power BI temp files
+.pbi/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
